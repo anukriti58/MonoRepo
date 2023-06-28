@@ -1,0 +1,19 @@
+{
+  "name": "dummy_project",
+  "version": "3.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "yarn run build:pkg && yarn run build:all",
+    "publish": "lerna publish"
+  },
+  "author": "",
+  "license": "ISC",
+  "workspaces": [
+    "packages/**"
+  ],
+  "devDependencies": {
+    "lerna": "^6.6.2"
+  }
+}
