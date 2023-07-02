@@ -1,11 +1,11 @@
 {
-  "name": "project_a",
+  "name": "project_c",
   "version": "1.0.0",
   "description": "> TODO: description",
   "author": "Anukriti_Shrivastava <anukriti.shrivastava@go-mmt.com>",
   "homepage": "",
   "license": "ISC",
-  "main": "lib/project_a.js",
+  "main": "lib/project_c.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -15,10 +15,10 @@
   ],
   "scripts": {
     "tsc": "tsc",
-    "test": "node ./__tests__/project_a.test.js"
+    "test": "node ./__tests__/project_c.test.js"
   },
   "devDependencies": {
     "typescript": "^5.1.5"
   },
-  "gitHead": "e6fd00012fa45d261c336f55494df273b1e89c95"
+  "gitHead": "142023235b0c1e45010f580d14cbf562a8b022b4"
 }
